@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    background-color: rgb(96, 27, 160);
+    color: aliceblue;
+}
+button {
+    background-color: #460972; /* cor de fundo do botão */
+    color: white; /* cor do texto */
+    border: none; /* remove a borda */
+    padding: 10px 20px; /* espaço interno do botão */
+    border-radius: 8px; /* arredonda os cantos */
+    font-size: 16px; /* tamanho do texto */
+    cursor: pointer; /* muda o cursor para uma mão */
+}
+
+button:hover {
+    background-color: #0f0d63; /* muda a cor quando passa o mouse */
+}
+
+.login{
+    color: rgb(188, 78, 216);
+}

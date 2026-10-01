@@ -1,0 +1,29 @@
+{
+  "pessoas": [
+    {
+      "laura": "laura",
+      "id": "69dC3bhYJXA"
+    },
+    {
+      "nome": "PEDRO",
+      "senha": "9630",
+      "id": "KnnYzy3qZj4"
+    },
+    {
+      "nome": "",
+      "senha": "12345",
+      "id": "DBeaNZ-7x0Q"
+    },
+    {
+      "nome": "PEDRO",
+      "senha": "7410",
+      "id": "wsoJXjpGvWk"
+    },
+    {
+      "nome": "PEDRO",
+      "senha": "4560",
+      "id": "Ho4RN7919Yk"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

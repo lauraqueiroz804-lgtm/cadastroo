@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem Bem-vindo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Título da página -->
+    <h1>Bem-vindo!</h1>
+
+    <!-- Local onde o nome será exibido -->
+    <p id="nome"></p>
+
+    <!-- Local onde o sobrenome será exibido -->
+    <p id="sobrenome"></p>
+
+    <!-- Local onde o telefone será exibido -->
+    <p id="telefone"></p>
+
+    <!-- Local onde a cidade será exibida -->
+    <p id="cidade"></p>
+
+    <!-- Local onde o curso será exibido -->
+    <p id="curso"></p>
+
+    <!-- Local onde a escola será exibida -->
+    <p id="escola"></p>
+
+
+    <script>
+
+        // Pega os dados do usuário que foram guardados no navegador
+        let usuario = JSON.parse(localStorage.getItem('usuario'));
+
+        // Mostra o nome do usuário na página
+        document.getElementById('nome').innerHTML = 
+            "Nome: " + usuario.nome;
+
+        // Mostra o sobrenome do usuário na página
+        document.getElementById('sobrenome').innerHTML = 
+            "Sobrenome: " + usuario.sobrenome;
+
+        // Mostra o telefone do usuário na página
+        document.getElementById('telefone').innerHTML = 
+            "Telefone: " + usuario.telefone;
+
+        // Mostra a cidade do usuário na página
+        document.getElementById('cidade').innerHTML = 
+            "Cidade: " + usuario.cidade;
+
+        // Mostra o curso do usuário na página
+        document.getElementById('curso').innerHTML = 
+            "Curso: " + usuario.curso;
+
+        // Mostra a escola do usuário na página
+        document.getElementById('escola').innerHTML = 
+            "Escola: " + usuario.escola;
+
+    </script>
+
+</body>
+</html>
+</body>
+</html>
